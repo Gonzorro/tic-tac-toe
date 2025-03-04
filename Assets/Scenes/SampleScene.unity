@@ -619,11 +619,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571646088}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -449.99997, y: -224.5233, z: 0}
-  m_LocalScale: {x: 1.4300847, y: 1.4300847, z: 1.4300847}
+  m_LocalPosition: {x: 0.000015258789, y: 41.512184, z: 0}
+  m_LocalScale: {x: 0.7865466, y: 0.7865466, z: 0.7865466}
   m_Children: []
-  m_Father: {fileID: 883544040}
-  m_RootOrder: 2
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &582859143
 GameObject:
@@ -1276,7 +1276,6 @@ RectTransform:
   m_Children:
   - {fileID: 285754340}
   - {fileID: 1570885030}
-  - {fileID: 571646091}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2656,9 +2655,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e44c8f7c5d7b6a42bcaf901d6bca296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winnerText: {fileID: 1935952290}
   _isPlayerTurn: 1
   _gridSize: 3
   playerState: 2
+  aiState: 1
   _xPrefab: {fileID: 7414302633889650939, guid: a450fd114cd7d1a478caad21517a2ac9,
     type: 3}
   _oPrefab: {fileID: 7864686030223180920, guid: f4dc0bc95f6576a40a4d10ac0b905c6a,
